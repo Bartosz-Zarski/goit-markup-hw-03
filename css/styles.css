@@ -5,9 +5,44 @@
   --black-color: #000;
   --grey-color: #757575;
 }
+* {
+  margin: 0;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--black-color);
+}
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.nav-list li {
+  display:inline;
+}
+.nav-list li:nth-child(2) {
+padding: 25px;
+}
+.header-contact li {
+  display: inline;
+}
+.header-contact li:first-child {
+  padding: 0px 25px 0px 0px;
+}
+.header-contact li:last-child {
+  padding: 0px 0px 0px 25px;
 }
 .contact {
   background-color: var(--background-color);
@@ -19,13 +54,14 @@ body {
   line-height: 1.714;
 }
 
-.offer-nav button:hover, .offer-nav button:focus {
+.offer-nav button:hover,
+.offer-nav button:focus {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
   cursor: pointer;
 }
 
-.link { 
+.link {
   color: inherit;
   text-decoration: none;
   font-weight: 500;
@@ -39,7 +75,9 @@ body {
   font-size: 26px;
   line-height: 1.173;
   font-family: Raleway;
+
 }
+
 .link-logo > span {
   color: var(--brand-color);
   font-weight: 700;
@@ -80,7 +118,8 @@ body {
   font-size: 44px;
   line-height: 1.363;
 }
-.solutions button, .solutions button:hover {
+.solutions button,
+.solutions button:hover {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
   cursor: pointer;
