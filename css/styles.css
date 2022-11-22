@@ -28,12 +28,17 @@ ul {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-
+.nav-list {
+  padding: 0px 0px 0px 93px;
+}
 .nav-list li {
   display:inline;
 }
 .nav-list li:nth-child(2) {
 padding: 25px;
+}
+.header-contact {
+  padding: 0px 0px 0px 371px;
 }
 .header-contact li {
   display: inline;
