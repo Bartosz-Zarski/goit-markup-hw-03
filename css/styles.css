@@ -57,19 +57,19 @@ h1 {
   display: inline;
 }
 .nav-list li:nth-child(2) {
-  padding: 25px;
+  margin: 0px 25px 0px 25px;
 }
 .header-contact {
-  padding: 0px 0px 0px 371px;
+  margin: 0px 0px 0px 371px;
 }
 .header-contact li {
   display: inline;
 }
 .header-contact li:first-child {
-  padding: 0px 25px 0px 0px;
+  margin: 0px 25px 0px 0px;
 }
 .header-contact li:last-child {
-  padding: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 25px;
 }
 .contact {
   background-color: var(--background-color);
@@ -143,7 +143,7 @@ h1 {
   background-color: var(--background-color);
   height: 600px;
   width: 1600px;
-  margin: 0 auto;
+
 }
 .solutions button {
   background-color: var(--brand-color);
@@ -189,18 +189,18 @@ h1 {
   height: 101px;
 }
 .lorem-showcase li:nth-child(1) {
-  padding-right: 15px;
+  margin-right: 15px;
 }
 .lorem-showcase li:nth-child(2) {
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .lorem-showcase li:nth-child(3) {
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .lorem-showcase li:nth-child(4) {
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
 .paragraph {
