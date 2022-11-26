@@ -6,7 +6,9 @@
   --grey-color: #757575;
   --border-header-color: #ececec;
 }
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
 }
@@ -16,6 +18,18 @@ body {
 }
 ul {
   list-style-type: none;
+  padding: 0px;
+}
+h1 {
+  width: 696px;
+  height: 120px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--logo-footer-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  margin: 200px 467px 15px 437px;
 }
 .section {
   padding: 94px 0px 94px 0px;
@@ -131,18 +145,6 @@ ul {
   width: 1600px;
   margin: 0 auto;
 }
-h1 {
-  width: 696px;
-  height: 120px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--logo-footer-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  margin: 200px 467px 15px 437px;
-}
-
 .solutions button {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
