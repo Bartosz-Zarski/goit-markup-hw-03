@@ -75,8 +75,9 @@ h1 {
 .header-contact li:last-child {
   margin: 0px 0px 0px 25px;
 }
-.contact {
+.bottom-info {
   background-color: var(--background-color);
+  width: 1600px;
   height: 252px;
 }
 .contact address {
@@ -254,6 +255,18 @@ h1 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.people li:nth-child(1) {
+  margin-right: 15px
+}
+.people li:nth-child(2) {
+  margin-inline: 15px;
+}
+.people li:nth-child(3) {
+  margin-inline: 15px;
+}
+.people li:nth-child(4) {
+  margin-left: 15px;
 }
 .box h3 {
   font-weight: 500;
