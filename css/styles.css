@@ -13,6 +13,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+img {
+  vertical-align: middle;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--black-color);
@@ -30,13 +33,10 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
-  margin: 200px 467px 15px 437px;
+  margin: 200px 0px 15px 0px;
 }
 .section {
   padding: 94px 0px 94px 0px;
-
-  /*Znów nieścisłość w poleceniu. Jak paddingi między sekcjami mają być po 94px,
-  to jak doda się górny i dolny padding to czasem wychodzi 188px. Musze kombinować. */
 }
 .container {
   width: 1200px;
@@ -88,7 +88,7 @@ h1 {
 }
 .bottom-info {
   background-color: var(--background-color);
-  height: 252px;
+
 }
 .contact address {
   color: var(--logo-footer-color);
@@ -156,14 +156,14 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: var(--background-color);
-  height: 600px;
+
 }
 .solutions button {
   background-color: var(--brand-color);
   color: var(--logo-footer-color);
   padding: 10px 41px 10px 42px;
   width: 200px;
-  height: 50px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -175,7 +175,7 @@ h1 {
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 15px 715px 200px 685px;
+  margin: 15px 0px 200px 0px;
 }
 .solutions button:hover {
   cursor: pointer;
@@ -215,7 +215,6 @@ h1 {
 }
 .lorem-box {
   width: 270px;
-  height: 101px;
 }
 .lorem-showcase li:nth-child(1) {
   margin-right: 15px;
@@ -264,7 +263,7 @@ h1 {
   display: box;
   text-align: center;
   width: 270px;
-  height: 368px;
+  
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -283,7 +282,7 @@ h1 {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 5px 0px 0px 0px;
+  padding: 5px 0px 30px 0px;
 }
 .offer-portfolio h3 {
   font-weight: 700;
