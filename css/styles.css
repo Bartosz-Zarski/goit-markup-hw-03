@@ -40,6 +40,17 @@ h1 {
 }
 .container {
   width: 1200px;
+}
+.container-top {
+    margin: 0px 215px 0px 215px;
+}
+.container-lorem {
+  margin: 0px 215px 0px 215px;
+}
+.container-offer {
+  margin: 0px 215px 0px 215px;
+}
+.container-footer {
   margin: 0px 215px 0px 215px;
 }
 .container .logo {
@@ -233,6 +244,9 @@ h1 {
   background-color: var(--team-bg-color);
   width: 1600px;
 }
+.team > .container {
+  margin-left: 215px;
+}
 .header-2 {
   font-weight: 700;
   font-size: 36px;
@@ -256,17 +270,11 @@ h1 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.people li:nth-child(1) {
-  margin-right: 15px;
-}
-.people li:nth-child(2) {
-  margin-inline: 15px;
-}
-.people li:nth-child(3) {
-  margin-inline: 15px;
-}
-.people li:nth-child(4) {
-  margin-left: 15px;
+.people {
+  display:flex;
+  justify-content: space-between;
+  padding-inline: 15px;
+
 }
 .box h3 {
   font-weight: 500;
