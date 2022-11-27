@@ -42,7 +42,7 @@ h1 {
   width: 1200px;
 }
 .container-top {
-    margin: 0px 215px 0px 215px;
+    margin: 0px 215px 0px 227px;
 }
 .container-lorem {
   margin: 0px 215px 0px 215px;
@@ -72,7 +72,7 @@ h1 {
   display: inline;
 }
 .nav-list li:nth-child(2) {
-  margin: 0px 25px 0px 25px;
+  margin: 0px 46px 0px 46px;
 }
 .header-contact {
   margin: 0px 0px 0px 371px;
@@ -274,7 +274,6 @@ h1 {
   display:flex;
   justify-content: space-between;
   padding-inline: 15px;
-
 }
 .box h3 {
   font-weight: 500;
