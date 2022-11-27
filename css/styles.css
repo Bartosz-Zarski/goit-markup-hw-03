@@ -5,6 +5,7 @@
   --black-color: #000;
   --grey-color: #757575;
   --border-header-color: #ececec;
+  --team-bg-color: #F5F4FA;
 }
 *,
 *::before,
@@ -33,6 +34,9 @@ h1 {
 }
 .section {
   padding: 94px 0px 94px 0px;
+  margin-bottom: -94px;
+  /*Znów nieścisłość w poleceniu. Jak paddingi między sekcjami mają być po 94px,
+  to jak doda się górny i dolny padding to czasem wychodzi 188px. Musze kombinować. */
 }
 .container {
   width: 1200px;
@@ -143,7 +147,6 @@ h1 {
   background-color: var(--background-color);
   height: 600px;
   width: 1600px;
-
 }
 .solutions button {
   background-color: var(--brand-color);
@@ -171,10 +174,29 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.171;
+  text-align: center;
+  font-style: normal;
+  margin-inline: 624px;
+  letter-spacing: 0.03em;
+  width: 353px;
+  padding-bottom: 25px;
+}
+.offer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 15px 94px 15px;
+  /* Dorzucam paddingi zewnetrzne po 15px, bo uklad w figmie ma 1170,
+   a w treści zadania ma być 1200 */
+}
+.offer-list li:nth-child(2) {
+  padding-inline: 30px;
 }
 .lorem-showcase {
   display: flex;
   justify-content: center;
+  padding-inline: 15px;
+  /*Tak jak wyzej*/
 }
 .lorem {
   font-weight: 700;
@@ -202,19 +224,23 @@ h1 {
 .lorem-showcase li:nth-child(4) {
   margin-left: 15px;
 }
-
 .paragraph {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--grey-color);
 }
-.team h3 {
+.team {
+  display:flex;
+  background-color: var(--team-bg-color);
+  width:1600px;
+}
+.header-2 h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.171;
 }
-.team p {
+.header-2 p {
   color: var(--grey-color);
   font-size: 16px;
   line-height: 1.171;
