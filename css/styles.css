@@ -147,6 +147,7 @@ h1 {
   font-size: 26px;
   line-height: 1.173;
   font-family: Raleway;
+  letter-spacing: 0.03em;
 }
 
 .link-logo > span {
@@ -155,6 +156,7 @@ h1 {
   font-size: 26px;
   line-height: 1.173;
   font-family: Raleway;
+  letter-spacing: 0.03em;
 }
 .link:hover,
 .link:focus {
@@ -167,6 +169,7 @@ h1 {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
+  letter-spacing: 0.02em;
 }
 .link-start:hover,
 .link-start:focus {
@@ -372,7 +375,8 @@ border-left: 1px solid var(--slides-background-color);
   line-height: 1.173;
   font-family: Raleway;
   letter-spacing: 0.03em;
-  padding: 60px 0px 10px 0px;
+  margin: 60px 0px 10px 0px;
+  width: 143px;
 }
 .contact span {
   color: var(--logo-footer-color);
