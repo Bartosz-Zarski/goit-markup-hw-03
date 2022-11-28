@@ -18,21 +18,25 @@
     <title>Studio</title>
   </head>
   <body>
-    <header id="header" class="logo">
-      <a class="link-logo" href="#"><span class="logo-header-begin">Web</span>Studio</a>
-      <nav>
-        <ul>
-          <li><a class="link" href="index.html">Agencja</a></li>
-          <li><a class="link" href="#main">Portfolio</a></li>
-          <li><a class="link" href="#footer">Kontakt</a></li>
+    <!--Header-->
+    <div class="container container-top">
+      <header id="header" class="logo-portfolio">
+        <a class="link-logo" href="#"><span class="logo-header-begin">Web</span>Studio</a>
+        <nav class="nav-list">
+          <ul>
+            <li><a class="link" href="index.html">Agencja</a></li>
+            <li><a class="link" href="#main">Portfolio</a></li>
+            <li><a class="link" href="#footer">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contact">
+          <li><a class="link-start" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link-start" href="tel:+48-111-111-111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li><a class="link-start" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link-start" href="tel:+48111111111">+48111111111</a></li>
-      </ul>
-    </header>
+      </header>
+    </div>
     <main>
+      <!--Buttons-->
       <div>
         <ul class="offer-nav">
           <li><button>Wszystkie</button></li>
@@ -42,10 +46,11 @@
           <li><button>Marketing</button></li>
         </ul>
       </div>
-
-      <section class="offer-portfolio">
-        <ul>
-          <li>
+<!--Slides-->
+      <section>
+        <div class="container container-portfolio">
+        <ul class="offer-portfolio">
+          <li class="box-portfolio">
             <figure>
               <img
                 src="images/portfolio/img-8.jpg"
@@ -59,7 +64,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img
                 src="images/portfolio/img-7.jpg"
@@ -73,7 +78,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img
                 src="images/portfolio/img-6.jpg"
@@ -87,7 +92,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img src="images/portfolio/img-5.jpg" alt="Słuchawki" width="370" height="294" />
               <figcaption>
@@ -96,7 +101,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img
                 src="images/portfolio/img-4.jpg"
@@ -110,7 +115,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img
                 src="images/portfolio/img-3.jpg"
@@ -124,7 +129,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img
                 src="images/portfolio/img-2.jpg"
@@ -138,7 +143,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img src="images/portfolio/img-1.jpg" alt="Metka produktu" width="370" height="294" />
               <figcaption>
@@ -147,7 +152,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="box-portfolio">
             <figure>
               <img
                 src="images/portfolio/img.jpg"
@@ -162,17 +167,26 @@
             </figure>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-    <footer class="contact">
-      <a class="link" href="#">Web<span>Studio</span></a>
-      <address>
-        <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link-footer" href="tel:+48111111111">+48111111111</a></li>
-        </ul>
-      </address>
-    </footer>
+    <!--Footer-->
+
+    <div class="bottom-info">
+      <div class="container container-footer">
+        <footer class="contact">
+          <a class="link" href="#">Web<span>Studio</span></a>
+          <address>
+            <ul>
+              <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a class="link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li><a class="link-footer" href="tel:+48-111-111-111">+48 111 111 111</a></li>
+            </ul>
+          </address>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
