@@ -32,13 +32,17 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
-  margin: 200px 0px 15px 0px;
+  margin: 0px 0px 15px 0px;
 }
 .section {
   padding: 94px 0px 94px 0px;
 }
+.section-what {
+  padding-top:0px;
+}
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 .container-top {
   margin: 0 auto;
@@ -67,6 +71,9 @@ h1 {
   display: flex;
   align-items: center;
   align-content: center;
+}
+.logo-portfolio {
+  border-bottom: 1px solid var(--border-header-color);
 }
 .container .link-logo {
   margin: 24px 0px 24px 0px;
@@ -124,10 +131,8 @@ h1 {
   border-radius: 4px;
 }
 .offer-nav {
-  border-top: 1px solid var(--border-header-color);
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 50px;
   gap: 4px;
 }
@@ -185,6 +190,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 110px 0px;
+}
+.solutions-bg {
   background-color: var(--background-color);
 }
 .solutions button {
@@ -203,7 +211,7 @@ h1 {
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 15px 0px 200px 0px;
+  margin: 15px 0px 0px 0px;
 }
 .solutions button:hover {
   cursor: pointer;
@@ -229,7 +237,7 @@ h1 {
 .lorem-showcase {
   display: flex;
   justify-content: center;
-  padding: 94px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
   gap: 30px;
 }
 .lorem {
@@ -301,7 +309,6 @@ h1 {
   padding-bottom: 30px;
 }
 .offer-portfolio {
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
